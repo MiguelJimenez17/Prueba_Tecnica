@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <title>Prueba Técnica</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles/style.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand navbar-dark bg-dark">
+    <div class="nav navbar-nav">
+      <a class="nav-item nav-link active" href="#" aria-current="page">Prueba técnica<span
+          class="visually-hidden">(current)</span></a>
+    </div>
+  </nav>
+  <main class="container-fluid">
+    <div class="row">
+      <div id="table-data-municipios" class="col-md-3">
+        <h2>Municipios</h2>
+        <div class="table-responsive">
+          <table class="table table-striped" id="municipios-table">
+            <thead id="thead-table-mun">
+              <tr>
+                <th scope="col">Municipio</th>
+                <th scope="col">Cod Dane</th>
+              </tr>
+            </thead>
+            <tbody id="info-data">
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="col-md-8" id="table-instituciones">
+        <h2 id="title-IE">Instituciones: <span id="title-table-IE"></span> </h2>
+        <div class="table-responsive">
+          <table class="table table-striped" id="institucion-table">
+            <thead>
+              <tr>
+                <th scope="col">Institucion</th>
+                <th scope="col">Dane Institucion</th>
+              </tr>
+            </thead>
+            <tbody id="info-data-IE">
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="col-md-5" id="table-sedes">
+        <h2 id="title-sedes">Sedes: <span id="title-table-sedes"></span> </h2>
+        <div class="table-responsive">
+          <table class="table table-striped" id="sedes-table">
+            <thead>
+              <tr>
+                <th scope="col">Sedes</th>
+                <th scope="col">Dane Sede</th>
+              </tr>
+            </thead>
+            <tbody id="info-data-Sedes">
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="col-md-5" id="table-grupos">
+        <h2 id="title-grupos">Grupos: <span id="title-table-grupos"></span> </h2>
+        <h2 class="text-center" id="title-table-group"></h2>
+        <div class="table-responsive">
+          <table class="table table-striped" id="grupo-table">
+            <thead>
+              <tr>
+                <th scope="col">Nombre Grupo</th>
+                <th scope="col">Id Grupo</th>
+              </tr>
+            </thead>
+            <tbody id="info-data-Grupos">
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="col-md-12" id="table-InfoGrupo">
+        <h2 id="title-infGrupo">Información: <span id="title-table-infGrupo"></span> </h2>
+        <h2 class="text-center" id="title-table-Infogroup"></h2>
+        <div class="table-responsive">
+          <table class="table table-striped" id="Info-group-table">
+            <thead>
+              <tr>
+                <th scope="col">Id Grupo</th>
+                <th scope="col">Nombre Grupo</th>
+                <th scope="col">Sede</th>
+                <th scope="col">Institucion</th>
+                <th scope="col">Municipio</th>
+                <th scope="col">Numero de Grupo</th>
+              </tr>
+            </thead>
+            <tbody id="info-data-InfoGrupo">
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!--CDN Jquery-->
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+  <!-- My Libraries Javascript -->
+  <script src="../javascript/index.js"></script>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

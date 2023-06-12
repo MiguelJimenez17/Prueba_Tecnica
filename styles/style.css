@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* estilos tabla de los municipios  */
+#table-data-municipios {
+  border: 2px solid #000;
+  background: #2e4053;
+  height: 600px;
+  color: #fff;
+}
+
+#thead-table-mun {
+  color: #fff;
+}
+
+#info-data tr:hover {
+  cursor: pointer;
+}
+
+#info-data tr:active {
+  background-color: #aeb6bf;
+}
+
+#info-data td {
+  color: #fff;
+}
+
+.clicked {
+  background-color: #aeb6bf;
+}
+
+/* Estilos tabla instituciones*/
+
+#table-instituciones {
+  margin-left: 10px;
+  margin-top: 2em;
+  height: 500px;
+  cursor: pointer;
+}
+
+#title-IE {
+  background: #2e4053;
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid #000;
+  height: 60px;
+}
+
+#title-table-IE {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.clicked {
+  background-color: #aeb6bf;
+}
+
+/* Estilos tabla sedes*/
+
+#table-sedes {
+  margin: auto;
+  margin-top: 2em;
+  height: 400px;
+  cursor: pointer;
+}
+
+#title-sedes {
+  background: #2e4053;
+  color: #fff;
+  border: 2px solid #000;
+  font-size: 20px;
+  height: 60px;
+  padding: 10px;
+}
+
+#title-table-sedes {
+  font-size: 20px;
+}
+
+/* Estilos tabla grupos*/
+
+#table-grupos {
+  margin: auto;
+  margin-top: 2em;
+  height: 300px;
+  cursor: pointer;
+}
+
+#title-grupos {
+  background: #2e4053;
+  color: #fff;
+  font-size: 20px;
+  border: 2px solid #000;
+  height: 60px;
+  padding: 10px;
+}
+
+#title-table-grupos {
+  font-size: 20px;
+}
+
+/* estilos table info*/
+
+#table-InfoGrupo{
+  margin-top: 2em;
+}
+
+#title-infGrupo{
+  background: #2e4053;
+  color: #fff;
+  font-size: 20px;
+  border: 2px solid #000;
+  height: 60px;
+  padding: 10px;
+}
+
+#title-table-infGrupo{
+  font-size: 20px;
+}
+
+#Info-group-table{
+border: 2px solid #000;
+margin-bottom: 2em;
+}
