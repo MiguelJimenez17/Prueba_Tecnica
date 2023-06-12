@@ -166,6 +166,7 @@ $(document).ready(function () {
           });
           // Limpiar la tabla de la información del grupo
           document.getElementById("info-data-InfoGrupo").innerHTML = "";
+          document.getElementById("title-table-infGrupo").innerHTML = "";
         } else {
           console.log("Error al obtener los grupos");
         }
